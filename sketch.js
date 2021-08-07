@@ -37,7 +37,7 @@ function draw() {
 
   //Calling function here:-
 
-  var select_sprites = Math.round(random(1,4))
+  var select_sprites = Math.round(random(1,3))
 
   if(frameCount % 80 == 0)
    {
@@ -53,7 +53,7 @@ function draw() {
      {
       createOrangeLeafs()
      }
-     else if(select_sprites === 4)
+     else
      {
        createRedLeafs()
      }
