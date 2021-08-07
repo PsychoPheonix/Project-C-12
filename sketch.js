@@ -90,7 +90,7 @@ function createOrangeLeafs()
   Orangeleaf = createSprite(random(50,350),40,10,10)
   Orangeleaf.addImage(orangeLeafImg)
   Orangeleaf.scale= 0.1
-  Orangeleaf.velocityY= 0.1
+  Orangeleaf.velocityY= 5
   Orangeleaf.lifetime=200
 }
 
@@ -99,7 +99,7 @@ function createRedLeafs()
 {
   Redleaf = createSprite(random(50,350),40,10,10)
   Redleaf.addImage(redLeafImg)
-  Redleaf.scale= 0.1
+  Redleaf.scale= 5
   Redleaf.velocityY= 0.1
   Redleaf.lifetime=200
 }
