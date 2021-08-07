@@ -99,7 +99,7 @@ function createRedLeafs()
 {
   Redleaf = createSprite(random(50,350),40,10,10)
   Redleaf.addImage(redLeafImg)
-  Redleaf.scale= 5
-  Redleaf.velocityY= 0.1
+  Redleaf.scale= 0.1
+  Redleaf.velocityY= 5
   Redleaf.lifetime=200
 }
